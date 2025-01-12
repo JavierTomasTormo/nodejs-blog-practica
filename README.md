@@ -134,5 +134,7 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 ![GitHub Metrics](./github-metrics.svg)
 
 
-RESULTAT DELS ÚLTIMS TESTS
+
 ![Cypress Tests](https://img.shields.io/badge/test-success-green)
+RESULTAT DELS ÚLTIMS TESTS
+![Cypress Tests](https://img.shields.io/badge/test-failure-red)
