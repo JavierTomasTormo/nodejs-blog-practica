@@ -74,3 +74,6 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 
 ### 📊 Resultados:
 <!-- - Resultados de Cypress: ![Resultados Tests](/img/4.png) -->
+
+RESULTAT DELS ÚLTIMS TESTS
+![Cypress Tests](https://img.shields.io/badge/test-failure-red)
