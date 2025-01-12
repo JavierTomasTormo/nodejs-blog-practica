@@ -1,0 +1,9 @@
+name: 'Badge Updater'
+description: 'Updates the README with the latest test results badge'
+inputs:
+  outcome:
+    description: 'The outcome of the Cypress tests'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'

@@ -1,65 +1,76 @@
-# Documentació de la correcció de l'error (Linter)
 
-## Correcció del problema amb les cometes en [id].js i index.js
+# 🛠️ Documentación del Proyecto
 
-### Problema detectat:
-El linter va detectar un error perquè en els arxius `api/users/[id].js` i `api/users/index.js` s'estaven utilitzant cometes simples (') en lloc de cometes dobles ("). El projecte està configurat perquè el linter reconega cometes dobles.
+## 📝 Corrección del Error (Linter)
 
-### Solució aplicada:
+### 🔍 Corrección del problema con las comillas en [id].js y index.js
 
-#### Revisió dels fitxers afectats:
-- Es van identificar els arxius `api/users/[id].js` i `api/users/index.js` com a problemàtics segons els logs del linter.
+#### ❗ Problema detectado:
+El linter detectó un error porque en los archivos `api/users/[id].js` y `api/users/index.js` se estaban utilizando comillas simples (') en lugar de comillas dobles ("). El proyecto está configurado para que el linter reconozca comillas dobles.
 
-#### Actualització de les cometes simples a cometes dobles:
-- Es van substituir totes les cometes simples per cometes dobles en els fitxers esmentats.
+#### ✅ Solución aplicada:
 
-### Exemple abans de la correcció:
+##### Revisión de los ficheros afectados:
+- Se identificaron los archivos `api/users/[id].js` y `api/users/index.js` como problemáticos según los logs del linter.
+
+##### Actualización de las comillas:
+- Se sustituyeron todas las comillas simples por comillas dobles en los ficheros mencionados.
+
+#### 📄 Ejemplos:
+
+**Antes de la corrección:**
+
 // api/users/[id].js
 // api/users/index.js
     case 'GET':
       return getUserById();
 
-### Exemple després de la correcció:
+
+**Después de la corrección:**
+
 // api/users/[id].js
 // api/users/index.js
     case "GET":
       return getUserById();
 
-### Comando utilitzat per validar els canvis:
+
+#### 🚀 Validación:
 
 npm run lint
 
-### Resultat del npm run lint:
-El linter s'executa sense cap error ni warning.
 
-### Captures de pantalla:
-- Modificació: ![Error inicial](/img/1.png)
-- .yml compliat: ![Compilat](/img/2.png)
+#### 📊 Resultado:
+✨ El linter se ejecuta sin ningún error ni warning.
 
+#### 📸 Evidencias:
+- Modificación: ![Error inicial](/img/1.png)
+- .yml compilado: ![Compilado](/img/2.png)
 
-# Documentació de Cypress
+---
 
-## .yml añadit:
+## 🧪 Documentación de Cypress
+
+### ⚙️ Configuración yml:
 ![yml](/img/6.png)
 ![yml](/img/5.png)
-### Procés utilitzat per validar els canvis:
-Fem un commit amb els canvis y en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/runs/ veurem l'execució de GitHub Actions.
-- Execució de GitHub Actions: ![Cypress Job](/img/3.png)
 
-### Resultat:
-- Resultats de Cypress: ![Resultats Tests](/img/4.png)
+### 🔄 Proceso de validación:
+Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: ![Cypress Job](/img/3.png)
 
+### 📈 Resultados:
+- Tests de Cypress: ![Resultados Tests](/img/4.png)
 
+---
 
-# Documentació de Badge
+## 🏆 Documentación de Badge
 
-## .yml añadit:
+### ⚙️ Configuración yml:
 ![yml](/img/8.png)
 
-### Procés utilitzat per validar els canvis:
-Fem un commit amb els canvis y en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/ veurem l'execució de GitHub Actions.
-- Execució de GitHub Actions: ![Badge Job](/img/7.png)
+### 🔄 Proceso de validación:
+Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: ![Badge Job](/img/7.png)
 
-### Resultat:
-<!-- - Resultats de Cypress: ![Resultats Tests](/img/4.png) -->
-
+### 📊 Resultados:
+<!-- - Resultados de Cypress: ![Resultados Tests](/img/4.png) -->

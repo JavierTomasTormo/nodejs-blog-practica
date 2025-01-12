@@ -1,9 +1,0 @@
-name: 'Badge Updater'
-description: 'Actualiza README.md con el estado de los tests de Cypress'
-inputs:
-  outcome:
-    description: 'El resultado de los tests de Cypress'
-    required: true
-runs:
-  using: 'node16'
-  main: 'index.js'
