@@ -97,7 +97,7 @@ jobs:
     needs: [linter_job, cypress_job, add_badge_job, deploy_job]
     steps:
       - name: Send email
-        uses: ./custom-notification-action
+        uses: ./.github/actions/custom-notification-action
         with:
           recipient: ${{ secrets.EMAIL }}
           linter_result: ${{ job.status }}

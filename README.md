@@ -94,7 +94,7 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 
 
 
-![Cypress Tests](https://img.shields.io/badge/test-failure-red)
+![Cypress Tests](https://img.shields.io/badge/test-success-green)
 
 
 ![Cypress Tests](https://img.shields.io/badge/test-failure-red)
