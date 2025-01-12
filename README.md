@@ -1,4 +1,3 @@
-
 # 🛠️ Documentación del Proyecto
 
 ## 📝 Corrección del Error (Linter)
@@ -19,38 +18,41 @@ El linter detectó un error porque en los archivos `api/users/[id].js` y `api/us
 #### 📄 Ejemplos:
 
 **Antes de la corrección:**
-
-// api/users/[id].js
+```sh
+// api/users/[id].js 
 // api/users/index.js
     case 'GET':
       return getUserById();
-
+```
 
 **Después de la corrección:**
 
+```sh
 // api/users/[id].js
 // api/users/index.js
     case "GET":
       return getUserById();
-
+```
 
 #### 🚀 Validación:
-
+```sh
 npm run lint
-
+```
 
 #### 📊 Resultado:
 ✨ El linter se ejecuta sin ningún error ni warning.
 
 #### 📸 Evidencias:
-- Modificación: ![Error inicial](/img/1.png)
-- .yml compilado: ![Compilado](/img/2.png)
+- Modificación: 
+    ![Error inicial](/img/1.png)
+- .yml compilado: 
+    ![Compilado](/img/2.png)
 
 ---
 
 ## 🧪 Documentación de Cypress
 
-### ⚙️ Configuración yml:
+### ⚙️ Añadido a Configuración yml:
 ![yml](/img/6.png)
 ![yml](/img/5.png)
 
@@ -59,7 +61,8 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 - Estado de GitHub Actions: ![Cypress Job](/img/3.png)
 
 ### 📈 Resultados:
-- Tests de Cypress: ![Resultados Tests](/img/4.png)
+- Tests de Cypress: 
+    ![Resultados Tests](/img/4.png)
 
 ---
 
@@ -73,4 +76,18 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 - Estado de GitHub Actions: ![Badge Job](/img/7.png)
 
 ### 📊 Resultados:
-<!-- - Resultados de Cypress: ![Resultados Tests](/img/4.png) -->
+- Resultados de Cypress: ![Resultados Tests](/img/9.png)
+
+---
+
+## 🏆 Documentación de Deploy
+
+### ⚙️ Configuración yml:
+![yml](/img/8.png)
+
+### 🔄 Proceso de validación:
+Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: ![Badge Job](/img/7.png)
+
+### 📊 Resultados:
+- Resultados de Cypress: ![Resultados Tests](/img/9.png)
