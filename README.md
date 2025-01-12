@@ -87,10 +87,10 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 
 ### 🔄 Proceso de validación:
 Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
-- Estado de GitHub Actions: ![Deploy Job](/img/.png)
+- Estado de GitHub Actions: ![Deploy Job](/img/11.png)
 
 ### 📊 Resultados:
-- Resultados de Cypress: ![Resultados Tests](/img/.png)
+- Resultados del Deploy: ![Resultados Tests](/img/12.png)
 
 
 

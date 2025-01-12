@@ -91,3 +91,18 @@ jobs:
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-args: "--prod --yes"
 
+
+  notification_job:
+    runs-on: ubuntu-latest
+    needs: [linter_job, cypress_job, add_badge_job, deploy_job]
+    steps:
+      - name: Send email
+        uses: ./custom-notification-action
+        with:
+          recipient: ${{ secrets.EMAIL }}
+          linter_result: ${{ job.status }}
+          cypress_result: ${{ needs.cypress_job.result }}
+          badge_result: ${{ needs.add_badge_job.result }}
+          deploy_result: ${{ needs.deploy_job.result }}
+
+
