@@ -18,12 +18,13 @@ El linter detectó un error porque en los archivos `api/users/[id].js` y `api/us
 #### 📄 Ejemplos:
 
 **Antes de la corrección:**
-```sh	
+```sh
 // api/users/[id].js 
 // api/users/index.js
     case 'GET':
       return getUserById();
 ```
+
 
 **Después de la corrección:**
 
@@ -34,104 +35,104 @@ El linter detectó un error porque en los archivos `api/users/[id].js` y `api/us
       return getUserById();
 ```
 
+
 #### 🚀 Validación:
 ```sh
 npm run lint
 ```
 
+
 #### 📊 Resultado:
 ✨ El linter se ejecuta sin ningún error ni warning.
 
 #### 📸 Evidencias:
-Error inicial
-![Error inicial](/img/1.png){width=80%}
+- Modificación: 
 
-.yml compilado
-![Compilado](/img/2.png){width=80%}
+![Error inicial](/img/1.png)
+- .yml compilado: 
+
+![Compilado](/img/2.png)
 
 ---
 
 ## 🧪 Documentación de Cypress
 
 ### ⚙️ Añadido a Configuración yml:
-Configuración yml
-![yml](/img/6.png){width=80%}
 
-Configuración yml adicional
-![yml](/img/5.png){width=80%}
+![yml](/img/6.png)
+
+![yml](/img/5.png)
 
 ### 🔄 Proceso de validación:
 Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: 
 
-Estado de GitHub Actions
-![Cypress Job](/img/3.png){width=80%}
+![Cypress Job](/img/3.png)
 
 ### 📈 Resultados:
-Tests de Cypress
-![Resultados Tests](/img/4.png){width=80%}
+- Tests de Cypress: 
+
+![Resultados Tests](/img/4.png)
 
 ---
 
 ## 🏆 Documentación de Badge
 
 ### ⚙️ Configuración yml:
-Configuración Badge
-![yml](/img/8.png){width=80%}
+
+![yml](/img/8.png)
 
 ### 🔄 Proceso de validación:
 Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: 
 
-Estado de GitHub Actions
-![Badge Job](/img/7.png){width=80%}
+![Badge Job](/img/7.png)
 
 ### 📊 Resultados:
-Resultados de Cypress
-![Resultados Tests](/img/9.png){width=80%}
+- Resultados de Cypress: 
+
+![Resultados Tests](/img/9.png)
 
 ---
 
 ## 🏆 Documentación de Deploy
 
 ### ⚙️ Configuración yml:
-Configuración Deploy
-![yml](/img/10.png){width=80%}
+
+![yml](/img/10.png)
 
 ### 🔄 Proceso de validación:
 Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: 
 
-Estado de GitHub Actions
-![Deploy Job](/img/11.png){width=80%}
+![Deploy Job](/img/11.png)
 
 ### 📊 Resultados:
-Resultados del Deploy
-![Resultados Tests](/img/12.png){width=80%}
+- Resultados del Deploy: 
+
+![Resultados Tests](/img/12.png)
 
 ## 🏆 Documentación de Notifications
 
 ### ⚙️ Configuración yml:
-Configuración Notifications
-![yml](/img/13.png){width=80%}
+
+![yml](/img/13.png)
 
 ### 🔄 Proceso de validación:
 Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: 
 
-Estado de GitHub Actions
-![Notification Job](/img/14.png){width=80%}
+![Notification Job](/img/14.png)
 
 ### 📊 Resultados:
-Resultados del Deploy
-![Resultados Tests](/img/.png){width=80%}
+- Resultados del Deploy: 
+
+![Resultados Tests](/img/.png)
 
 ## Metricas
 
-Métricas de GitHub
-![GitHub Metrics](./github-metrics.svg){width=80%}
+![GitHub Metrics](./github-metrics.svg)
 
-
-![Cypress Tests](https://img.shields.io/badge/test-success-green)
-
-
-![Cypress Tests](https://img.shields.io/badge/test-failure-red)
 
 RESULTAT DELS ÚLTIMS TESTS
-![Cypress Tests](https://img.shields.io/badge/test-failure-red)
+![Cypress Tests](https://img.shields.io/badge/test-success-green)
