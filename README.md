@@ -1,269 +1,108 @@
 # 🛠️ Documentación del Proyecto
 
-<div align="center">
-
-![GitHub Metrics](./github-metrics.svg)
-
-<table>
-<tr>
-<td>✅ Tests Exitosos</td>
-<td>❌ Tests Fallidos</td>
-</tr>
-<tr>
-<td>
-
-![Cypress Tests](https://img.shields.io/badge/test-success-green)
-
-</td>
-<td>
-
-![Cypress Tests](https://img.shields.io/badge/test-failure-red)
-
-</td>
-</tr>
-</table>
-
-</div>
-
 ## 📝 Corrección del Error (Linter)
 
 ### 🔍 Corrección del problema con las comillas en [id].js y index.js
 
-<details>
-<summary><b>#### ❗ Problema detectado:</b></summary>
+#### ❗ Problema detectado:
 El linter detectó un error porque en los archivos `api/users/[id].js` y `api/users/index.js` se estaban utilizando comillas simples (') en lugar de comillas dobles ("). El proyecto está configurado para que el linter reconozca comillas dobles.
-</details>
 
-### ✅ Solución aplicada:
-
-<table>
-<tr>
-<th colspan="2">Proceso de Corrección</th>
-</tr>
-<tr>
-<td>
+#### ✅ Solución aplicada:
 
 ##### Revisión de los ficheros afectados:
 - Se identificaron los archivos `api/users/[id].js` y `api/users/index.js` como problemáticos según los logs del linter.
 
-</td>
-<td>
-
 ##### Actualización de las comillas:
 - Se sustituyeron todas las comillas simples por comillas dobles en los ficheros mencionados.
 
-</td>
-</tr>
-</table>
+#### 📄 Ejemplos:
 
-### 📄 Ejemplos:
-
-<table>
-<tr>
-<th>Antes de la corrección:</th>
-<th>Después de la corrección:</th>
-</tr>
-<tr>
-<td>
-
-
+**Antes de la corrección:**
+```sh
 // api/users/[id].js 
 // api/users/index.js
     case 'GET':
       return getUserById();
+```
 
+**Después de la corrección:**
 
-</td>
-<td>
-
-
+```sh
 // api/users/[id].js
 // api/users/index.js
     case "GET":
       return getUserById();
+```
 
+#### 🚀 Validación:
+```sh
+npm run lint
+```
 
-</td>
-</tr>
-</table>
-
-### 🚀 Validación y Resultados:
-
-<table>
-<tr>
-<th>Resultado del Linter</th>
-<th>Evidencias</th>
-</tr>
-<tr>
-<td>
-
+#### 📊 Resultado:
 ✨ El linter se ejecuta sin ningún error ni warning.
 
-</td>
-<td>
-<table>
-<tr>
-<td>
-
-**Modificación:**
-![Error inicial](/img/1.png)
-
-</td>
-<td>
-
-**.yml compilado:**
-![Compilado](/img/2.png)
-
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
+#### 📸 Evidencias:
+- Modificación: 
+    ![Error inicial](/img/1.png)
+- .yml compilado: 
+    ![Compilado](/img/2.png)
 
 ---
 
 ## 🧪 Documentación de Cypress
 
-<table>
-<tr>
-<th>⚙️ Configuración yml</th>
-<th>🔄 Proceso de validación</th>
-<th>📈 Resultados</th>
-</tr>
-<tr>
-<td>
-<div style="display: flex; gap: 20px;">
-
+### ⚙️ Añadido a Configuración yml:
 ![yml](/img/6.png)
 ![yml](/img/5.png)
 
-</div>
-</td>
-<td>
-
+### 🔄 Proceso de validación:
 Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: ![Cypress Job](/img/3.png)
 
-**Estado de GitHub Actions:**
-![Cypress Job](/img/3.png)
-
-</td>
-<td>
-
-**Tests de Cypress:**
-![Resultados Tests](/img/4.png)
-
-</td>
-</tr>
-</table>
+### 📈 Resultados:
+- Tests de Cypress: 
+    ![Resultados Tests](/img/4.png)
 
 ---
 
 ## 🏆 Documentación de Badge
 
-<table>
-<tr>
-<th>⚙️ Configuración yml</th>
-<th>🔄 Proceso y Resultados</th>
-</tr>
-<tr>
-<td>
-
+### ⚙️ Configuración yml:
 ![yml](/img/8.png)
 
-</td>
-<td>
-<table>
-<tr>
-<td>
+### 🔄 Proceso de validación:
+Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: ![Badge Job](/img/7.png)
 
-**Estado de GitHub Actions:**
-![Badge Job](/img/7.png)
-
-</td>
-<td>
-
-**Resultados de Cypress:**
-![Resultados Tests](/img/9.png)
-
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
+### 📊 Resultados:
+- Resultados de Cypress: ![Resultados Tests](/img/9.png)
 
 ---
 
 ## 🏆 Documentación de Deploy
 
-<table>
-<tr>
-<th>⚙️ Configuración yml</th>
-<th>🔄 Proceso y Resultados</th>
-</tr>
-<tr>
-<td>
-
+### ⚙️ Configuración yml:
 ![yml](/img/10.png)
 
-</td>
-<td>
-<table>
-<tr>
-<td>
+### 🔄 Proceso de validación:
+Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: ![Deploy Job](/img/11.png)
 
-**Estado de GitHub Actions:**
-![Deploy Job](/img/11.png)
-
-</td>
-<td>
-
-**Resultados del Deploy:**
-![Resultados Tests](/img/12.png)
-
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
-
----
+### 📊 Resultados:
+- Resultados del Deploy: ![Resultados Tests](/img/12.png)
 
 ## 🏆 Documentación de Notifications
 
-<table>
-<tr>
-<th>⚙️ Configuración yml</th>
-<th>🔄 Proceso y Resultados</th>
-</tr>
-<tr>
-<td>
-
+### ⚙️ Configuración yml:
 ![yml](/img/13.png)
 
-</td>
-<td>
-<table>
-<tr>
-<td>
+### 🔄 Proceso de validación:
+Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
+- Estado de GitHub Actions: ![Notification Job](/img/14.png)
 
-**Estado de GitHub Actions:**
-![Notification Job](/img/14.png)
-
-</td>
-<td>
-
-**Resultados del Deploy:**
-![Resultados Tests](/img/15.png)
-
-</td>
-</tr>
-</table>
-</td>
-</tr>
-</table>
+### 📊 Resultados:
+- Resultados del Deploy: ![Resultados Tests](/img/.png)
 
 ## Metricas
 
