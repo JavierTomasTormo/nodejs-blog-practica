@@ -59,7 +59,7 @@ jobs:
         run: |
           echo "::set-output name=cypress_outcome::$(cat result.txt)"
       - name: Update README with badge
-        uses: ./your-custom-action
+        uses: ./.github/actions/badge-updater
         with:
           outcome: ${{ steps.generate_output.outputs.cypress_outcome }}
       - name: Commit and push changes

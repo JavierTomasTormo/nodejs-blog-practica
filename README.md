@@ -43,7 +43,7 @@ El linter s'executa sense cap error ni warning.
 ![yml](/img/6.png)
 ![yml](/img/5.png)
 ### Procés utilitzat per validar els canvis:
-Fem un commit amb els canvis y en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/runs/12736150185 l'execució de GitHub Actions.
+Fem un commit amb els canvis y en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/runs/ veurem l'execució de GitHub Actions.
 - Execució de GitHub Actions: ![Cypress Job](/img/3.png)
 
 ### Resultat:
@@ -51,4 +51,15 @@ Fem un commit amb els canvis y en https://github.com/JavierTomasTormo/nodejs-blo
 
 
 
+# Documentació de Badge
+
+## .yml añadit:
+![yml](/img/8.png)
+
+### Procés utilitzat per validar els canvis:
+Fem un commit amb els canvis y en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/ veurem l'execució de GitHub Actions.
+- Execució de GitHub Actions: ![Badge Job](/img/7.png)
+
+### Resultat:
+<!-- - Resultats de Cypress: ![Resultats Tests](/img/4.png) -->
 
