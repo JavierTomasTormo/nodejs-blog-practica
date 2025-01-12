@@ -82,5 +82,5 @@ jobs:
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          scope: javiertt-03
+          scope: javtomtor@alu.edu.gva.es
 
