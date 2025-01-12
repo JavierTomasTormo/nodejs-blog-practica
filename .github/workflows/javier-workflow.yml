@@ -107,6 +107,13 @@ jobs:
             curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage" \
               -d chat_id=${{ secrets.TELEGRAM_CHAT_ID }} \
               -d text="$(echo -e "$JOB_RESULTS")"
+              
+        - uses: lowlighter/metrics@latest
+          with:
+            filename: github-metrics.svg
+            token: ${{ secrets.GITHUB_TOKEN }}
+
+
 
 
 

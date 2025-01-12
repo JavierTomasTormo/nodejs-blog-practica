@@ -92,18 +92,21 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 ### 📊 Resultados:
 - Resultados del Deploy: ![Resultados Tests](/img/12.png)
 
-## 🏆 Documentación de Deploy
+## 🏆 Documentación de Notifications
 
 ### ⚙️ Configuración yml:
 ![yml](/img/13.png)
 
 ### 🔄 Proceso de validación:
 Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/nodejs-blog-practica/actions/
-- Estado de GitHub Actions: ![Deploy Job](/img/.png)
+- Estado de GitHub Actions: ![Notification Job](/img/14.png)
 
 ### 📊 Resultados:
 - Resultados del Deploy: ![Resultados Tests](/img/.png)
 
+## Metricas
+
+![GitHub Metrics](./github-metrics.svg)
 
 
 ![Cypress Tests](https://img.shields.io/badge/test-success-green)
