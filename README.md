@@ -127,7 +127,7 @@ Los cambios se verifican mediante commit en https://github.com/JavierTomasTormo/
 ### 📊 Resultados:
 - Resultados del Deploy: 
 
-![Resultados Tests](/img/.png)
+![Resultados Tests](/img/15.png)
 
 ## Metricas
 
