@@ -13,6 +13,9 @@ inputs:
   badge_result:
     description: 'Badge job result'
     required: true
+  deploy_result:
+    description: 'Deploy job result'
+    required: true
 runs:
   using: 'node16'
   main: 'index.js'
